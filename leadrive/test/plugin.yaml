@@ -1,0 +1,11 @@
+plugin:
+    name: 'leadrive.test::lang.plugin.name'
+    description: 'leadrive.test::lang.plugin.description'
+    author: Leadrive
+    icon: oc-icon-adjust
+    homepage: ''
+navigation:
+    main-menu-item:
+        label: Test
+        url: leadrive/test/demos
+        icon: icon-life-ring

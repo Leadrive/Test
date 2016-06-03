@@ -1,0 +1,11 @@
+1.0.1:
+    - 'Initialize plugin.'
+1.0.2:
+    - 'Created table leadrive_test_config'
+    - builder_table_create_leadrive_test_config.php
+1.0.3:
+    - 'Created table leadrive_test_demo'
+    - builder_table_create_leadrive_test_demo.php
+1.0.4:
+    - Seeding all tables
+    - seed_all_tables.php 
