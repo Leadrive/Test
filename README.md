@@ -5,9 +5,13 @@ After install the plugin, in the backend menu, you can find "Test", click the "T
 The table leadrive_test_demo have two records, because the bug, the list is empty.
 
 In the table leadrive_test_config, I put three records
+
         Config::create(['id' => 1, 'field_name' => 'type_one', 'name' => 'Type_One_1', 'deleted_at' => null]);
+        
         Config::create(['id' => 2, 'field_name' => 'type_one', 'name' => 'Type_One_2', 'deleted_at' => '2016-06-03 14:35:12']);
+        
         Config::create(['id' => 1, 'field_name' => 'type_two', 'name' => 'Type_Two_1', 'deleted_at' => null]);
+        
 id = 1, will have two records, so use the field_name to know.
 
     public $belongsTo = [
